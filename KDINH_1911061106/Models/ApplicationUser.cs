@@ -18,7 +18,7 @@ namespace KDINH_1911061106.Models
         }
     }
 
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    /* public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
@@ -29,5 +29,5 @@ namespace KDINH_1911061106.Models
         {
             return new ApplicationDbContext();
         }
-    }
-}
+    */
+  }
